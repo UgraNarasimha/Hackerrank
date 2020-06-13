@@ -43,9 +43,9 @@ int subString(string str, int uniq)
 			cout << "  : m=" << m;
 			cout << endl; 
 
-			if(m>=uniq)
+			if(m==uniq)
 			{
-				hmap.insert({ temp, temp.length() });
+		        	hmap.insert({ temp, temp.length() });
 			}
 			
 		} 
